@@ -12,7 +12,7 @@ import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 import { environment } from 'src/environments/environment';
 import { DatePipe } from '@angular/common';
 
-const config: SocketIoConfig = { url: environment.kafka_host};
+const config: SocketIoConfig = { url: environment.web_socket_host};
 @NgModule({
   declarations: [
     AppComponent

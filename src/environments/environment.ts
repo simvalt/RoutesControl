@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  kafka_host:'127.0.0.1:3000',
+  web_socket_host:'127.0.0.1:3000',
   kafka_topic:'RoutesControl'
 };
 
